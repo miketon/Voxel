@@ -149,7 +149,7 @@ GameObject:
   - 64: {fileID: 312621359}
   - 114: {fileID: 312621362}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Voxel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -167,7 +167,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9a706821382924b648074b7ea454320e, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -192,7 +192,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 312621357}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 0}
 --- !u!4 &312621361
 Transform:
   m_ObjectHideFlags: 0
@@ -215,6 +215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a1933de4acf940d4b2ece0abd57a903, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nVertices: []
+  nTriangles: 
 --- !u!1 &1065531969
 GameObject:
   m_ObjectHideFlags: 0
