@@ -215,8 +215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a1933de4acf940d4b2ece0abd57a903, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nVertices: []
-  nTriangles: 
 --- !u!1 &1065531969
 GameObject:
   m_ObjectHideFlags: 0
